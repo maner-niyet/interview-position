@@ -1,0 +1,43 @@
+main{
+  width: 500px;
+  height: 300px;
+  margin: 200px auto;
+  padding: 0;
+  background-image: url(https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9yZXN0fGVufDB8fDB8&w=1000&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.left-top, .right-bottom{
+  position: absolute;
+  color: white;
+  font-size: 18px;
+}
+
+.left-top{
+  top: 0;
+  left: 0;
+}
+
+.right-bottom{
+  right: 0;
+  bottom: 0;
+}
+
+.animation{
+  border: 3px solid rgb(253, 19, 19);
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.animation:hover{
+  background-color: turquoise;
+  color: black;
+}
